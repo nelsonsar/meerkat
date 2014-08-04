@@ -1,10 +1,17 @@
-meerkat
-=======
+# Meerkat
 
-A similar artists finder sit on top of last.fm.
-
-For this work you will need to change ```config.rb``` and put your own last.fm API key.
-
+A similar artists finder sit on top of [LastFM][3].
 Sorry for no tests, I'll work on that later (I know shit about Ruby)...
 
-To make a try type ```rackup -p 4567``` from your command line e check your browser at ```http://localhost:4567```
+## Installation
+
+You need [a LastFM API key][1] and put it inside the `config.rb` file.
+On the project directory, run `bundle install` (you will need [Bundler][2] installed).
+
+## Running
+
+Run `rackup -p 4567` from your command line e check your browser at `http://localhost:4567`.
+
+[1]: http://www.last.fm/api/account/create
+[2]: http://bundler.io/
+[3]: http://lastfm.com
